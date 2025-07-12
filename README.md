@@ -1,8 +1,8 @@
-🚀 Argo CD Multi-App Helm Deployment with ApplicationSet
+**🚀 Argo CD Multi-App Helm Deployment with ApplicationSet**
 
 This repository demonstrates how to deploy multiple applications dynamically using Argo CD's ApplicationSet controller combined with a shared Helm chart.
 
-It supports:
+**It supports:**
 
 Folder-based application discovery
 
@@ -13,7 +13,7 @@ Automatic namespace creation
 Syncing on Git changes
 
 
-🔁 How It Works
+**🔁 How It Works**
 
 The ApplicationSet controller uses the git.directory generator to scan apps/*
 
@@ -25,7 +25,7 @@ Apps are deployed in separate namespaces
 
 Taints in EKS are handled via tolerations
 
-⚙️ Key Concepts
+**⚙️ Key Concepts**
 
 Git-based app discovery using folder names
 
@@ -37,7 +37,7 @@ Automatic deployment via Argo CD ApplicationSet
 
 Tolerations used for EKS node scheduling (especially with Auto mode)
 
-🚀 Deployment Steps
+**🚀 Deployment Steps**
 
 ✅ Connect this repo to Argo CD (Settings → Repositories)
 
@@ -47,7 +47,7 @@ Tolerations used for EKS node scheduling (especially with Auto mode)
 
 ✅ Monitor each application in Argo CD UI under "Applications"
 
-🛠️ Troubleshooting
+**🛠️ Troubleshooting**
 
 ❌ Application not showing up
 
@@ -61,7 +61,7 @@ Nodes in EKS Auto mode are often tainted
 
 Add tolerations: to your Helm deployment templates to handle taints such as CriticalAddonsOnly and karpenter.sh/disrupted
 
-🧪 Future Improvements
+**🧪 Future Improvements**
 
 Parameterize tolerations via values.yaml
 
@@ -69,7 +69,7 @@ Add Kustomize overlays for prod/stage/dev
 
 Add Prometheus/Grafana setup for monitoring
 
-👌 Credits
+**👌 Credits**
 
 Built with 💙 using:
 
@@ -79,7 +79,7 @@ Helm
 
 AWS EKS
 
-📬 Reach Out
+**📬 Reach Out**
 
 Feel free to fork, open issues, or connect with me on LinkedIn (https://www.linkedin.com/in/aditya-mishra-a0315b154/)!
 
