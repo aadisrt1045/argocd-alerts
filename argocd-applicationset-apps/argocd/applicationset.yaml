@@ -16,7 +16,7 @@ spec:
     spec:
       project: default
       source:
-        repoURL: https://github.com/<your-org>/<your-repo>.git
+        repoURL: https://github.com/aadisrt1045/argocd-alerts.git
         targetRevision: HEAD
         path: helm-chart
         helm:
