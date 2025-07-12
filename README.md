@@ -12,20 +12,6 @@ Automatic namespace creation
 
 Syncing on Git changes
 
-📁 Repository Structure
-
-argocd-alerts/
-├── argocd-applicationset-apps/
-│   ├── apps/
-│   │   ├── app1/values.yaml
-│   │   ├── app2/values.yaml
-│   │   └── app3/values.yaml
-│   ├── helm-chart/
-│   │   ├── Chart.yaml
-│   │   └── templates/
-│   │       └── deployment.yaml
-│   └── argocd/
-│       └── applicationset.yaml
 
 🔁 How It Works
 
