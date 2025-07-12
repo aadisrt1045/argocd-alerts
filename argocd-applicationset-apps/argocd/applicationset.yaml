@@ -9,7 +9,7 @@ spec:
         repoURL: https://github.com/aadisrt1045/argocd-alerts.git
         revision: HEAD
         directories:
-          - path: apps/*
+          - path: argocd-applicationset-apps/apps/*
   template:
     metadata:
       name: '{{path.basename}}'
